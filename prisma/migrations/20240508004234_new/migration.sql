@@ -1,0 +1,14 @@
+-- AlterTable
+ALTER TABLE `admin` ALTER COLUMN `email` DROP DEFAULT,
+    ALTER COLUMN `name` DROP DEFAULT,
+    ALTER COLUMN `password` DROP DEFAULT;
+
+-- AlterTable
+ALTER TABLE `coffee` ALTER COLUMN `name` DROP DEFAULT,
+    ALTER COLUMN `size` DROP DEFAULT,
+    ALTER COLUMN `image` DROP DEFAULT;
+
+-- AlterTable
+ALTER TABLE `orderlist` ALTER COLUMN `customerName` DROP DEFAULT,
+    ALTER COLUMN `order_type` DROP DEFAULT,
+    ALTER COLUMN `order_date` DROP DEFAULT;

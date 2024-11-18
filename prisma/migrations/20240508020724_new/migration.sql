@@ -1,0 +1,9 @@
+-- AlterTable
+ALTER TABLE `coffee` MODIFY `name` VARCHAR(191) NOT NULL DEFAULT '',
+    MODIFY `size` VARCHAR(191) NOT NULL DEFAULT '',
+    MODIFY `image` VARCHAR(191) NOT NULL DEFAULT '';
+
+-- AlterTable
+ALTER TABLE `orderlist` MODIFY `customerName` VARCHAR(191) NOT NULL DEFAULT '',
+    MODIFY `order_type` VARCHAR(191) NOT NULL DEFAULT '',
+    MODIFY `order_date` VARCHAR(191) NOT NULL DEFAULT '';
